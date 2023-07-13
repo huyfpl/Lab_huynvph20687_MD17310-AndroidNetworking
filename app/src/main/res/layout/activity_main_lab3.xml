@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edttoan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Diem Toan"
+        android:inputType="numberDecimal"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/edtly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Diem Ly"
+        android:inputType="numberDecimal"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btntinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Tinh trung binh"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/txtkq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Ket qua"
+        android:gravity="center"/>
+
+    <TextView
+        android:background="#FF0000"
+        android:backgroundTint="#FF0000"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtcanh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap canh"
+        android:inputType="numberDecimal"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btntinhthetich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Tinh the tich"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/txtkqthetich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Ket qua" />
+
+</LinearLayout>
