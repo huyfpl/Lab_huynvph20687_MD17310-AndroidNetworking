@@ -8,9 +8,9 @@
 $response = array();
 
 $servername = "localhost";
-$username = "id10840443_user";
-$password = "12345678Aa@123";
-$dbname = "id10840443_springbootdb";
+$username = "id18739966_huynvph20687";
+$password = "Huy@17122003";
+$dbname = "id18739966_quanlyduan";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
