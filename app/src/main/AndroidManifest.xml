@@ -16,7 +16,7 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".Lab6.MainActivityLab6"
+            android:name=".Lab7.MainActivityLab7"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,13 +28,18 @@
                 android:value="" />
         </activity>
         <activity
+            android:name=".Lab6.MainActivityLab6"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Lab5.MainActivityLab5"
             android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
-
-
         </activity>
         <activity
             android:name=".Lab4.MainActivityLab4"
