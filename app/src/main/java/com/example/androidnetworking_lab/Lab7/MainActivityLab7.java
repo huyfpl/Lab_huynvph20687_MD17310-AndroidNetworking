@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -19,6 +20,7 @@ import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.androidnetworking_lab.R;
+import com.example.androidnetworking_lab.link;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -178,11 +180,14 @@ public class MainActivityLab7 extends AppCompatActivity {
         //b2. Tao queue
         RequestQueue queue=Volley.newRequestQueue(context);
         //b3. url
-        String url="https://batdongsanabc.000webhostapp.com/mob403lab7/get_all_product.php";
+        String url=link.URL+"get_all_product.php";
+        Log.d("kokdoeoded", "selectVolley: "+url);
         //b4. Xac dinh loai request
         JsonObjectRequest request=new JsonObjectRequest(url, new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {
+                String jsonResponse = response.toString(); // Chuyển JSONObject thành chuỗi JSON
+                Log.d("Response", jsonResponse);
                 try {
                     JSONArray products=response.getJSONArray("products");
                     strKQ="";

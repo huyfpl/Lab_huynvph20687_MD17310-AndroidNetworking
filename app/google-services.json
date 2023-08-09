@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "624698332160",
+    "project_id": "androidnetworking-208d9",
+    "storage_bucket": "androidnetworking-208d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624698332160:android:6da01e993b7fccd11574e5",
+        "android_client_info": {
+          "package_name": "com.example.androidnetworking_lab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624698332160-fb2hhvb8rqjinrcuh6sujs2tan3mo0jt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqg0ceVSe7rVNHDFWrEPV9GFWor932uRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624698332160-fb2hhvb8rqjinrcuh6sujs2tan3mo0jt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

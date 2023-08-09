@@ -43,7 +43,7 @@ public class MainActivityLab6 extends AppCompatActivity {
         //0.Tao hang doi
         RequestQueue queue= Volley.newRequestQueue(context);
         //1.url
-        String url="https://anodyne-reader.000webhostapp.com/AndroidNetWorking/Lab6/form.json";
+        String url="http://tocao.free.nf/form.json";
         //2. Tao request -> (xac dinh Loai request)
         //Truong hop nay la ArrayRequest (vi day la mang cua cac doi tuong)
         //JsonArrayRequest(url,thanhCong,thatBai)

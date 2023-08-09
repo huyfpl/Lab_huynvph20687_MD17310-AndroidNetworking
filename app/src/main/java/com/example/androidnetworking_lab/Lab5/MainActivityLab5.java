@@ -121,7 +121,7 @@ public class MainActivityLab5 extends AppCompatActivity {
         //B0. Chuan bi du lieu
         //b1. Tao doi tuong Retrofit
         Retrofit retrofit=new Retrofit.Builder()
-                .baseUrl("https://anodyne-reader.000webhostapp.com/AndroidNetWorking/Lab4/")
+                .baseUrl("http://tocao.free.nf/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         //b2. Goi interface + chuan bi ham + thuc thi ham
